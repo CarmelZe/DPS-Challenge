@@ -3,6 +3,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import os
+
+port = int(os.environ.get('PORT', 8501))
 
 # Load the model
 with open('Models/model.pkl', 'rb') as model_file:
