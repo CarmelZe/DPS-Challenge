@@ -16,7 +16,7 @@ st.title('Predictor App')
 
 # Input form
 st.header('Input')
-year = st.number_input('Year', min_value=2010, max_value=2022, step=1)
+year = st.number_input('Year', min_value=2000, max_value=2021, step=1)
 month = st.number_input('Month', min_value=1, max_value=12, step=1)
 
 # Prediction
