@@ -33,7 +33,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Random Forest Regressor model
 rf_model = RandomForestRegressor()
 rf_model.fit(X_train, y_train)
-rf_y_pred = rf_model.predict(X_test)
 
 # Save the model in the 'Models' folder
 model_filename = 'Models/model.pkl'
